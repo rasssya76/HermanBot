@@ -8,7 +8,7 @@ Sewa Permanen : 5k
 _Pulsa Dan Dana_
 
 Minat?PC
-Wa.me/6283146208804
+Wa.me/6281515589573
 `
 }
 handler.help = ['sewa']

@@ -392,7 +392,7 @@ Halo %name :)
 
     externalAdReply: {
 
-                    title: `Herman Botz`,
+                    title: `R-BOT`,
 
                     body: `${ucapanWaktu} ${name}`,
 
