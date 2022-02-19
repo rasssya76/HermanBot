@@ -26,7 +26,7 @@ let zer = `╭❏ *kandang ${name.vnmae || name.notify || name.name}*
 ├ *🐗 = [ ${babihutan} ] Ekor Babi Hutan*
 ├ *🐖 = [ ${babi} ] Ekor Babi*
 ├ *🐓 = [ ${ayam} ] Ekor Ayam*
-╰──> _Herman Botz_ ©2022
+╰──> _R-Botz_ ©2022
  `.trim()
      conn.reply(m.chat, zer, m)
 } 
