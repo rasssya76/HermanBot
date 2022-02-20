@@ -25,7 +25,7 @@ Opsi Yang Tersedia :
 
 Hanya Dapat Menggunakan 1 Emoji, Perhatikan Spasi, Jangan Spam Atau User Akan Di Banned
 
-Mau Buat Stiker Tapi Cuma 2/3 Emoji? Klik Link Berikut *https://wa.me/6287834993722?text=%23stikeremoji*`
+Mau Buat Stiker Tapi Cuma 2/3 Emoji? Klik Link Berikut *https://wa.me/62815155895735?text=%23stikeremoji*`
   if (!args[0]) throw er
 
   let template = (args[0] || '').toLowerCase()

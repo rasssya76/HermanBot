@@ -5,11 +5,11 @@ let handler = async(m, { conn, text }) => {
   if (!text) return conn.reply(m.chat, 'Harap Masukan Query', m)
 
   await m.reply('Searching...')
-    let res = await fetch(`https://api.zeks.xyz/api/shopee?apikey=apivinz&q=${text}`)
+    let res = await fetch(`https://api.zeks.xyz/api/shopee?apikey=Alphabott&q=${text}`)
     let json = await res.json()
     if (res.status !== 200) throw await res.text()
     if (!json.status) throw json
-    let thumb = await (await fetch(`http://lolhuman.herokuapp.com/api/gimage?apikey=lolapikey&query=${text}`)).buffer()
+    let thumb = await (await fetch(`http://lolhuman.herokuapp.com/api/gimage?apikey=7548d3d204cc3890c03d9468&query=${text}`)).buffer()
     let data = json.data
     let index = Math.floor(Math.random() * data.length)
     let object = data[index]
